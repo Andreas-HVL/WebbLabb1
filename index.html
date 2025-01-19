@@ -4,27 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=local_pizza" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>PH-COMPANY-NAME</title>
     
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">test</a>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-bg">
+      <div class="container-lg">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" ></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="index.html">
+                  <div class="d-flex align-items-center">
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-80 80-680q85-72 186.5-116T480-840q112 0 213.5 43.5T880-680L480-80Zm0-144 292-438q-65-45-139-71.5T480-760q-79 0-152.5 26.5T188-662l292 438ZM380-560q25 0 42.5-17.5T440-620q0-25-17.5-42.5T380-680q-25 0-42.5 17.5T320-620q0 25 17.5 42.5T380-560Zm100 200q25 0 42.5-17.5T540-420q0-25-17.5-42.5T480-480q-25 0-42.5 17.5T420-420q0 25 17.5 42.5T480-360Zm0 136Z"/></svg>
+                    <h1 style="font-weight: bolder;line-height: 1; color: aliceblue;">COMFORT<br>GAMING</h1>
+                  </div>
+              </a>
+
+              <ul class="navbar-nav me-auto fs-4">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+              
+                  <li class="nav-item">
+                      <a class="nav-link" href="aboutUs.html">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link"href="products.html">Menu</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="bi bi-cart4"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  
+              </ul>
           </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="aboutUs.html">About Us</a></li>
-          </ul>
+
+      </div>
+  </nav>
+  <h1>Welcome to test</h1>
+  <main class="text-center my-5">
+    <h1>Comfort enhances performance.</h1>
+    <p class="fs-5 fw-semibold">playing in competitive environment can take a toll on our bodies. In stressful games it is easy to forget our posture and how tense we tend to be.<br>
+        Comfort-Gaming's products ensures that gamers can maintain their performance while being comfortable.</p>
+        <div id="carouselExample" class="carousel slide">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/fff.png" class="carousel-img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/fff.png" class="carousel-img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/fff.png" class="carousel-img" alt="...">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev carousel-control" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button class="carousel-control-next carousel-control" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+
         </div>
-      </nav>
-    <h1>Welcome to test</h1>
+        <p class="my-3 fs-4 fw-semibold">So what are you waiting for? Take a look on our goods!</p>
 
+        <div class=" justify-content-center row mx-auto">
+            <div class="col-10 col-md-6 col-lg-1">
+                <a class="link-dark" href="products.html">
+                     <i class="bi bi-headset" style="font-size: 4em; color:black"></i>
+                    <p class="fw-bolder">Headsets</p>
+                </a>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-1">
+                <a class="link-dark" href="products.html">
+                    <i class="bi bi-keyboard-fill" style="font-size: 4em;"></i>
+                   <p class="fw-bolder">Keyboards</p>
+               </a>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-1">
+                <a class="link-dark" href="products.html">
+                 <i class="bi bi-mouse2-fill" style="font-size: 4em;"></i>
+                <p class="fw-bolder">Mouse</p>
+                </a>
+            </div>
+
+
+        </div>    
     
+</main>
 
+
+  <footer>
+    <div class="container mb-0">
+        <div class="row text-center text-md-start">
+            <div class="col-12 col-md-4">
+                <h5>Contact</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <h5>About</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <h5>Support</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <p>&copy; 2025 Comfort Gaming. All rights reserved for Dersim Abbas.</p>
+        </div>
+    </div>
+</footer>
+  
     <script src="index.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 </html>
