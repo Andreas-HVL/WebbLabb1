@@ -126,6 +126,8 @@ main {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   text-align: center; 
   background-color: #f9f9f9;
+  font-family: "Dancing Script"
+
 }
 
 .menu-item img {
@@ -147,4 +149,10 @@ main {
 
 .menu-item button:hover {
   background-color: #0056b3; 
+}
+
+.welcomeText{
+    font-weight: bold;
+    color: #333;
+    line-height: 1.6;
 }
